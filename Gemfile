@@ -14,6 +14,7 @@ gem 'devise', '~> 3.2.4'
 
 group :development, :test do
      gem 'sqlite3'
+end
 
 group :production do
      gem 'pg'
