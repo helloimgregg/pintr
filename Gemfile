@@ -12,8 +12,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'devise', '~> 3.2.4'
 
-#group :development, :test do
-     #gem 'sqlite3'
+group :development, :test do
+     gem 'sqlite3'
 
 group :production do
      gem 'pg'
